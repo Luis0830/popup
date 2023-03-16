@@ -1,0 +1,29 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #9f9f9f;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+display: flex;
+background-color: #fff;
+height: 500px;  
+width: 500px; 
+}
+.mitle{
+
+}
+.mitle > hr{
+   
+    border:         none;
+    border-left:    1px solid hsla(10, 0%, 30%,30);
+    height:         10vh;
+    width:          1px;   
+ 
+}
+.porse{
+    display: flex;
+}
