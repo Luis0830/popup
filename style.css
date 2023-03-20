@@ -2,28 +2,102 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    text-align: center;
     background-color: #9f9f9f;
+    font-family: 'Prata', serif;
 }
 .container{
+    
     text-align: center;
     justify-content: center;
     align-items: center;
 display: flex;
 background-color: #fff;
 height: 500px;  
-width: 500px; 
+width: 680px; 
+margin-top: 12%;
 }
-.mitle{
+.title{
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.title h1{
+    text-align: left;
+    font-size: 65px;
+    font-weight: 300;
+    letter-spacing: 13px;
+    color: #464646;
+    opacity: 1;
+    justify-content: left;
+}
 
+.mitle{
+    font-size: 65px;
+    color: #FD8C94;
+}
+.mitle p{
+    
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 .mitle > hr{
-   
+    
     border:         none;
-    border-left:    1px solid hsla(10, 0%, 30%,30);
-    height:         10vh;
+    border-left:    1px solid hsla(10, 0%, 30%,10);
+    height:         12vh;
     width:          1px;   
- 
+    border-color: #E9E9E9;
+    font-weight: 200;
+}
+.amount{
+    margin-left: 1px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .porse{
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #464646;
+}
+
+.porse h1{
+    font-size: 167px;
+    letter-spacing: -4.34px;
+    opacity: 1;
+    font: normal normal normal 167px Prata;
+}
+.porse span{
+    font-size: 82px;
+    margin-bottom: -35px;
+    color: #464646;
+    opacity: 1;
+}
+.porse p{
+    font-size: 28px;
+    margin-top: -20px;
+    font: normal normal normal 28px/40px Prata;
+letter-spacing: 2.24px;
+color: #464646;
+opacity: 1;
+}
+.off{
+    margin-left: 5px;
+}
+.off p{
+    font: normal normal normal 28px/40px Prata;
+    color: #464646;
+opacity: 1;
+
+}
+.off span{
+    line-height: 1;
+}
+.form{
+    
 }
